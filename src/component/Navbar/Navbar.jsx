@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { MdOutlineClose } from "react-icons/md";
-import { SlHome } from "react-icons/sl";
+import NavBarDetails from '../Navbardetails/NavBardetails';
 
 const Navbar = () => {
     const navbarData = [
@@ -14,18 +13,13 @@ const Navbar = () => {
       
     return (
         <div>
-            <ul className='md:flex gap-3 items-center'>
-            <div className='text-3xl' onClick={()=>setOpen(!open)}>
+            <ul>
+            <div className='md:flex gap-3 '>
             {
-                open?<SlHome/>:<MdOutlineClose />
+                navbarData.map(item=><NavBarDetails item={item}></NavBarDetails>)
             }
             </div>
-
-            {
-                navbarData.map(item=><li>{item.name}</li>)
-            }
-            
-            </ul>
+</ul>
         </div>
     );
 };
