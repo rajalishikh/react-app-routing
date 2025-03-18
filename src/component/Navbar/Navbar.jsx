@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { IoHomeOutline } from "react-icons/io5";
+import { MdOutlineClose } from "react-icons/md";
 import NavBarDetails from '../Navbardetails/NavBardetails';
 
 const Navbar = () => {
@@ -13,13 +15,21 @@ const Navbar = () => {
       
     return (
         <div>
+            <div onClick={
+                ()=>setOpen(!open)
+               } className='text-3xl md:hidden'>
+                {
+                    open?<IoHomeOutline />:<MdOutlineClose />
+                }
+
+            </div>
             <ul>
-            <div className='md:flex gap-3 '>
+            <div className={`md:flex gap-3 relative duration-1000 md:static ${open?'top-2':"-top-60 "} `}>
             {
                 navbarData.map(item=><NavBarDetails item={item}></NavBarDetails>)
             }
             </div>
-</ul>
+            </ul>
         </div>
     );
 };
