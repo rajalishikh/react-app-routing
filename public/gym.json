@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "FitLife Gym",
+    "category": "Fitness",
+    "price": 50
+  },
+  {
+    "id": 2,
+    "name": "PowerHouse Gym",
+    "category": "Bodybuilding",
+    "price": 70
+  },
+  {
+    "id": 3,
+    "name": "Yoga Bliss",
+    "category": "Yoga",
+    "price": 40
+  },
+  {
+    "id": 4,
+    "name": "CrossFit Elite",
+    "category": "CrossFit",
+    "price": 80
+  },
+  {
+    "id": 5,
+    "name": "Flex Fitness",
+    "category": "Fitness",
+    "price": 55
+  },
+  {
+    "id": 6,
+    "name": "Strength Haven",
+    "category": "Weightlifting",
+    "price": 65
+  },
+  {
+    "id": 7,
+    "name": "Pilates Studio",
+    "category": "Pilates",
+    "price": 45
+  },
+  {
+    "id": 8,
+    "name": "HIIT Pro",
+    "category": "HIIT",
+    "price": 60
+  },
+  {
+    "id": 9,
+    "name": "KickBox Arena",
+    "category": "Kickboxing",
+    "price": 75
+  },
+  {
+    "id": 10,
+    "name": "Aqua Gym",
+    "category": "Swimming",
+    "price": 90
+  }
+]

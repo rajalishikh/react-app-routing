@@ -21,12 +21,11 @@ const Navbar = () => {
                 {
                     open?<IoHomeOutline />:<MdOutlineClose />
                 }
-
-            </div>
+         </div>
             <ul>
-            <div className={`md:flex gap-3 relative duration-1000 md:static ${open?'top-2':"-top-60 "} `}>
+            <div className={`md:flex gap-3 relative duration-1000 md:static ${open?'top-2':"-top-72 "} bg-yellow-400 `}>
             {
-                navbarData.map(item=><NavBarDetails item={item}></NavBarDetails>)
+                navbarData.map(item=><NavBarDetails key={item.id} item={item}></NavBarDetails>)
             }
             </div>
             </ul>
