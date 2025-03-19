@@ -3,6 +3,7 @@ import GymOption from './component/GymOption/GymOption'
 import Navbar from './component/navbar/navbar'
 import Phone from './component/phone/Phone'
 import Rechart from './component/Rechart/Rechart'
+import Temperature from './component/Temparature/Temparature'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
     <GymOption></GymOption>
     <Rechart></Rechart>
     <Phone></Phone>
+    <Temperature></Temperature>
     </>
   )
 }

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "date": "2025-03-19",
+    "description": "Hot with hazy sunshine",
+    "high_temp_celsius": 36,
+    "low_temp_celsius": 21
+  },
+  {
+    "id": 2,
+    "country": "Bangladesh",
+    "city": "Chattogram",
+    "date": "2025-03-20",
+    "description": "Sun and clouds",
+    "high_temp_celsius": 33,
+    "low_temp_celsius": 23
+  },
+  {
+    "id": 3,
+    "country": "Bangladesh",
+    "city": "Sylhet",
+    "date": "2025-03-21",
+    "description": "Cloudy; breezy in the afternoon",
+    "high_temp_celsius": 28,
+    "low_temp_celsius": 20
+  },
+  {
+    "id": 4,
+    "country": "Bangladesh",
+    "city": "Khulna",
+    "date": "2025-03-22",
+    "description": "Cloudy with a thundershower in spots",
+    "high_temp_celsius": 26,
+    "low_temp_celsius": 19
+  },
+  {
+    "id": 5,
+    "country": "Bangladesh",
+    "city": "Rajshahi",
+    "date": "2025-03-23",
+    "description": "Strong thunderstorms expected",
+    "high_temp_celsius": 27,
+    "low_temp_celsius": 20
+  },
+  {
+    "id": 6,
+    "country": "Bangladesh",
+    "city": "Barishal",
+    "date": "2025-03-24",
+    "description": "After a cloudy start, sunshine returns",
+    "high_temp_celsius": 27,
+    "low_temp_celsius": 18
+  },
+  {
+    "id": 7,
+    "country": "Bangladesh",
+    "city": "Rangpur",
+    "date": "2025-03-25",
+    "description": "Warmer with plenty of sun",
+    "high_temp_celsius": 33,
+    "low_temp_celsius": 20
+  }
+]
